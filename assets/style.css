@@ -191,6 +191,7 @@ body#énergétique{
 .box{
     position: relative;
     max-width: 800px;
+    min-width: auto;
     padding:50px;
     background: rgba(255,255,255,.2);
 }
@@ -211,7 +212,7 @@ body#énergétique{
 .onglet a {
     position: relative;
     display: inline-flex;
-    font-size: 29px;
+    font-size: 25px;
     text-decoration:none;
     cursor: pointer;
     color: rgb(0, 52, 224);
@@ -223,4 +224,32 @@ a{
     color:  black;
     cursor: pointer;
 }
+@media (max-width:1305px){
+    .top-header .name{
+        font-size: 60px;
+    }
+    .logo{
+        max-width: 300px;
+        max-height: 300px;
+    }
+}
+@media (max-width:1200px){
+    .onglet a {
+        font-size: 20px;
+    }
+    .top-header .name{
+        font-size: 50px;
+    }
+}
 
+@media (max-width:1095px){
+    .top-header .name{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:990px){
+    .top-header .name{
+        font-size: 30px;
+    }
+}
