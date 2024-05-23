@@ -164,6 +164,7 @@ body#communicationanimale{
 
 body#tarifs{
 background:linear-gradient(to bottom right, rgb(238, 255, 1), rgb(166, 124, 255));
+margin: 0;
 }
 
 body#yogadurire{
