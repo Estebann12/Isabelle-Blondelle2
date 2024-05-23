@@ -1,0 +1,225 @@
+#texte
+{
+    width: 1000px;
+    height: 1300px;
+    margin: 0 auto;
+    background: rgba(255,255,255,.2);
+    border: 2px solid grey;
+    box-shadow: 0px 0px 10px purple;
+}
+.tarifs{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.tarifs a {
+font-size: 20px;
+font-weight: bold;
+color:rgb(0, 0, 0);
+padding-top: 15px;
+padding-left: 10px;
+}
+
+.apropos{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.apropos  a {
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(228, 228, 13);
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+.naturo {
+    display: inline-flex;
+    flex-direction: column;
+}
+.naturo a{
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(208, 24, 82);
+    padding-top: 20px;
+    padding-left: 5px;
+}
+.naturo p{
+    font-size: 25px;
+    font-weight: bold;
+    color: chocolate;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+p {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    unicode-bidi: isolate;
+}
+
+.commu {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.commu a {
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(63, 147, 178);
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+.tarifs span {
+    color:rgb(103, 172, 0);
+}
+
+.tarifs-color {
+background-color: orange;
+}
+
+.energie {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.energie a{
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(91, 61, 0);
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+.energie p{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(7, 101, 20);
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+header{
+    margin: 0 auto;
+}
+
+.top-header {
+    background: rgba(255,255,255,.2);
+    position: relative;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding-inline: 100px;
+    padding-block: 30px;
+    align-items: center;
+}
+
+.top-header .name{
+    color: blueviolet;
+    font-style: oblique;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    position: relative;
+}
+
+.name{
+    position: relative;
+}
+.content-top{
+    display:contents;
+}
+.logo{
+    position: relative;
+    max-width: 350px;
+    max-height: 350px;
+}
+
+body#accueil{
+    background-image: url(../assets/images/isasourire.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+body#naturopathie{
+    background-image: url(../assets/images/violette.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+body#communicationanimale{
+    background-image: url(../assets/images/ChatChien.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+body#tarifs{
+background:linear-gradient(to bottom right, rgb(238, 255, 1), rgb(166, 124, 255));
+}
+
+body#yogadurire{
+    background-image: url(../assets/images/rire.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+body#chamanisme{
+    background-image: url(../assets/images/chama.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+body#énergétique{
+    background:linear-gradient(to bottom right, rgb(168, 88, 253), rgb(111, 252, 139));
+    margin: 0;
+}
+
+.box{
+    position: relative;
+    max-width: 800px;
+    padding:50px;
+    background: rgba(255,255,255,.2);
+}
+.section-onglet{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background: rgba(255,255,255,.2);
+    border: 2px solid grey;
+    box-shadow: 0px 0px 10px purple;
+}
+
+.onglet{
+    display: flex;
+    position: relative;
+}
+
+.onglet a {
+    position: relative;
+    display: inline-flex;
+    font-size: 29px;
+    text-decoration:none;
+    cursor: pointer;
+    color: rgb(0, 52, 224);
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color:  black;
+    cursor: pointer;
+}
+
