@@ -1,7 +1,7 @@
 #texte
 {
     max-width: 1000px;
-    max-height: 1800px;
+    max-height: 4000px;
     margin: 0 219px 0 219px;
     background: rgba(255,255,255,.2);
     border: 2px solid grey;
@@ -226,6 +226,7 @@ body#accueil{
     background-position: center;
     background-size: cover;
     margin: 0;
+    height: fit-content;
 }
 body#naturopathie{
     background-image: url(../assets/images/violette.jpg);
@@ -233,6 +234,7 @@ body#naturopathie{
     background-position: center;
     background-size: cover;
     margin: 0;
+    height: fit-content;
 }
 
 body#communicationanimale{
@@ -241,11 +243,13 @@ body#communicationanimale{
     background-position: center;
     background-size: cover;
     margin: 0;
+    height: fit-content;
 }
 
 body#tarifs{
 background:linear-gradient(to bottom right, rgb(238, 255, 1), rgb(166, 124, 255));
 margin: 0;
+height: fit-content;
 }
 
 body#yogadurire{
@@ -254,6 +258,7 @@ body#yogadurire{
     background-position: center;
     background-size: cover;
     margin: 0;
+    height: fit-content;
 }
 
 body#chamanisme{
@@ -262,11 +267,13 @@ body#chamanisme{
     background-position: center;
     background-size: cover;
     margin: 0;
+    height: fit-content;
 }
 
 body#énergétique{
     background:linear-gradient(to bottom right, rgb(168, 88, 253), rgb(111, 252, 139));
     margin: 0;
+    height: fit-content;
 }
 
 .box{
