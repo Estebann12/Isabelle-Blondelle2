@@ -38,18 +38,34 @@ padding-left: 10px;
     flex-direction: column;
 }
 .naturo a{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     color:rgb(208, 24, 82);
     padding-top: 20px;
     padding-left: 5px;
 }
+
+.naturo a:last-child{
+    margin-bottom: 5rem;
+}
+
 .naturo p{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     color: chocolate;
     padding-top: 5px;
     padding-left: 5px;
+}
+
+
+
+.naturo h3, h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(208, 24, 82);
+    padding-top: 20px;
+    padding-left: 5px;
+    margin-block-end: 0;
 }
 
 p {
@@ -67,11 +83,22 @@ p {
 }
 
 .commu a {
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(2, 5, 6);
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+.commu h3 {
     font-size: 30px;
     font-weight: bold;
-    color:rgb(63, 147, 178);
-    padding-top: 20px;
-    padding-left: 5px;
+    color: purple;
+    margin-block-end: 0;
+}
+
+.commu h3:last-child {
+    margin-block-end: 5rem;
 }
 
 .tarifs span {
@@ -88,7 +115,7 @@ background-color: orange;
 }
 
 .energie a{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     color:rgb(91, 61, 0);
     padding-top: 20px;
@@ -96,12 +123,47 @@ background-color: orange;
 }
 
 .energie p{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     color: rgb(7, 101, 20);
     padding-top: 5px;
     padding-left: 5px;
 }
+
+.yogadurire {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.yogadurire h2, h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(241, 189, 77);
+    padding-top: 20px;
+    padding-left: 5px;
+    margin-block-end: 0;
+}
+
+.yogadurire a {
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(206, 104, 56);
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+.yogadurire a:last-child {
+    margin-bottom: 5rem;
+}
+
+.yogadurire p {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(67, 198, 84);
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
 
 header{
     margin: 0 auto;
