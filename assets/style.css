@@ -110,7 +110,7 @@ p {
     padding-left: 5px;
 }
 
-.commu h3 {
+.commu h3, .commu h2 {
     font-size: 30px;
     font-weight: bold;
     color: purple;
@@ -207,9 +207,9 @@ background-color: orange;
 }
 
 .chamanisme p {
-    font-size: 20px;
+    font-size: 23px;
     font-weight: bold;
-    color: rgb(89, 67, 198);
+    color: rgb(48, 7, 92);
     padding-top: 10px;
     padding-left: 5px;
 }
@@ -233,6 +233,19 @@ background-color: orange;
 
 .chamanisme a:last-child {
     margin-bottom: 5rem;
+}
+
+.images {
+    
+    width:200px;
+    height: 250px;
+}
+
+.div-img {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    margin-top: 10px;
 }
 
 
