@@ -293,6 +293,7 @@ header{
 }
 
 body#accueil{
+    display: block;
     background-image: url(../assets/images/isasourire.webp);
     background-attachment: fixed;
     background-position: center;
@@ -301,6 +302,7 @@ body#accueil{
     height: fit-content;
 }
 body#naturopathie{
+    display: block;
     background-image: url(../assets/images/violette.webp);
     background-attachment: fixed;
     background-position: center;
@@ -310,6 +312,7 @@ body#naturopathie{
 }
 
 body#communicationanimale{
+    display: block;
     background-image: url(../assets/images/ChatChien.webp);
     background-attachment: fixed;
     background-position: center;
@@ -325,6 +328,7 @@ height: fit-content;
 }
 
 body#yogadurire{
+    display: block;
     background-image: url(../assets/images/rire.webp);
     background-attachment: fixed;
     background-position: center;
@@ -334,6 +338,7 @@ body#yogadurire{
 }
 
 body#chamanisme{
+    display: block;
     background-image: url(../assets/images/chama.webp);
     background-attachment: fixed;
     background-position: center;
