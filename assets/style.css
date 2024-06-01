@@ -10,7 +10,7 @@
     border-bottom-right-radius: 2rem;
 }
 
-#textecommu {
+#textetarifs{
     background:rgb(230 186 5 / 9%);
     max-width: 1000px;
     max-height: 8000px;
@@ -32,6 +32,7 @@ font-weight: bold;
 color:rgb(0, 0, 0);
 padding-top: 15px;
 padding-left: 10px;
+cursor: none;
 }
 
 .tarifs p {
@@ -58,6 +59,7 @@ padding-left: 10px;
     color:rgb(228, 228, 13);
     padding-top: 20px;
     padding-left: 5px;
+    cursor: none;
 }
 
 .apropos  a:last-child {
@@ -74,6 +76,7 @@ padding-left: 10px;
     color:rgb(89, 6, 32);
     padding-top: 20px;
     padding-left: 5px;
+    cursor: none;
 }
 
 .naturo a:last-child{
@@ -86,6 +89,10 @@ padding-left: 10px;
     color: rgb(48, 7, 92);
     padding-top: 5px;
     padding-left: 5px;
+}
+
+.images#naturo-img:last-child{
+    margin-bottom: 5rem;
 }
 
 
@@ -119,6 +126,7 @@ p {
     color:rgb(2, 5, 6);
     padding-top: 15px;
     padding-left: 5px;
+    cursor: none;
 }
 
 .commu h3, .commu h2 {
@@ -133,7 +141,7 @@ p {
 }
 
 .tarifs span {
-    color:rgb(103, 172, 0);
+    color:rgb(217, 255, 161);
 }
 
 .tarifs-color {
@@ -151,6 +159,7 @@ background-color: orange;
     color:rgb(91, 61, 0);
     padding-top: 20px;
     padding-left: 5px;
+    cursor: none;
 }
 
 .energie a:last-child {
@@ -198,6 +207,7 @@ background-color: orange;
     color:rgb(206, 104, 56);
     padding-top: 20px;
     padding-left: 5px;
+    cursor: none;
 }
 
 .yogadurire a:last-child {
@@ -231,6 +241,7 @@ background-color: orange;
     color:rgb(48, 7, 92);
     padding-top: 20px;
     padding-left: 5px;
+    cursor: none;
 }
 
 .chamanisme h2, .chamanisme h3 {
@@ -299,8 +310,8 @@ header{
 }
 .logo{
     position: relative;
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 320px;
+    max-height: 320px;
 }
 
 body#accueil{
@@ -310,8 +321,10 @@ body#accueil{
     background-image: url(../assets/images/isasourire.webp);
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;
+    background-size:cover;
     margin: 0;
+    padding: 0;
+    z-index: -10;
     height: fit-content;
     filter: drop-shadow(2px 4px 6px black);
 }
@@ -324,6 +337,8 @@ body#naturopathie{
     background-position: center;
     background-size: cover;
     margin: 0;
+    padding: 0;
+    z-index: -10;
     height: fit-content;
     filter: drop-shadow(2px 4px 6px black);
 }
@@ -337,13 +352,17 @@ body#communicationanimale{
     background-position: center;
     background-size: cover;
     margin: 0;
+    padding: 0;
+    z-index: -10;
     height: fit-content;
     filter: drop-shadow(2px 4px 6px black);
 }
 
 body#tarifs{
-background:linear-gradient(to bottom right, rgb(238, 255, 1), rgb(166, 124, 255));
+background:linear-gradient(to bottom, rgb(238, 255, 1), rgb(59, 12, 161));
 margin: 0;
+padding: 0;
+z-index: -10;
 height: fit-content;
 filter: drop-shadow(2px 4px 6px black);
 }
@@ -357,6 +376,8 @@ body#yogadurire{
     background-position: center;
     background-size: cover;
     margin: 0;
+    padding: 0;
+    z-index: -10;
     height: fit-content;
     filter: drop-shadow(2px 4px 6px black);
 }
@@ -370,6 +391,8 @@ body#chamanisme{
     background-position: center;
     background-size: cover;
     margin: 0;
+    padding: 0;
+    z-index: -10;
     height: fit-content;
     filter: drop-shadow(2px 4px 6px black);
 }
@@ -377,6 +400,8 @@ body#chamanisme{
 body#énergétique{
     background:linear-gradient(to bottom right, rgb(168, 88, 253), rgb(111, 252, 139));
     margin: 0;
+    padding: 0;
+    z-index: -10;
     height: fit-content;
     filter: drop-shadow(2px 4px 6px black);
 }
@@ -571,8 +596,8 @@ a{
         font-size: 60px;
     }
     .logo{
-        max-width: 300px;
-        max-height: 300px;
+        max-width: 255px;
+        max-height: 255px;
     }
 }
 @media (max-width:1200px){
@@ -595,6 +620,6 @@ a{
 
 @media (max-width:990px){
     .top-header .name{
-        font-size: 30px;
+        font-size: 39px;
     }
 }
