@@ -3,7 +3,18 @@
     max-width: 1000px;
     max-height: 8000px;
     margin: 0 219px 0 219px;
-    background: rgba(255,255,255,.2);
+    background: rgb(255 255 255 / 30%);
+    border: 2px solid grey;
+    box-shadow: 0px 0px 10px purple;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+#textecommu {
+    background:rgb(230 186 5 / 9%);
+    max-width: 1000px;
+    max-height: 8000px;
+    margin: 0 219px 0 219px;
     border: 2px solid grey;
     box-shadow: 0px 0px 10px purple;
     border-bottom-left-radius: 2rem;
@@ -70,7 +81,7 @@ padding-left: 10px;
 }
 
 .naturo p{
-    font-size: 20px;
+    font-size: 23px;
     font-weight: bold;
     color: rgb(48, 7, 92);
     padding-top: 5px;
@@ -293,64 +304,81 @@ header{
 }
 
 body#accueil{
-    display: block;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-clip: border-box;
     background-image: url(../assets/images/isasourire.webp);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     margin: 0;
     height: fit-content;
+    filter: drop-shadow(2px 4px 6px black);
 }
 body#naturopathie{
-    display: block;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-clip: border-box;
     background-image: url(../assets/images/violette.webp);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     margin: 0;
     height: fit-content;
+    filter: drop-shadow(2px 4px 6px black);
 }
 
 body#communicationanimale{
-    display: block;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-clip: border-box;
     background-image: url(../assets/images/ChatChien.webp);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     margin: 0;
     height: fit-content;
+    filter: drop-shadow(2px 4px 6px black);
 }
 
 body#tarifs{
 background:linear-gradient(to bottom right, rgb(238, 255, 1), rgb(166, 124, 255));
 margin: 0;
 height: fit-content;
+filter: drop-shadow(2px 4px 6px black);
 }
 
 body#yogadurire{
-    display: block;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-clip: border-box;
     background-image: url(../assets/images/rire.webp);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     margin: 0;
     height: fit-content;
+    filter: drop-shadow(2px 4px 6px black);
 }
 
 body#chamanisme{
-    display: block;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-clip: border-box;
     background-image: url(../assets/images/chama.webp);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     margin: 0;
     height: fit-content;
+    filter: drop-shadow(2px 4px 6px black);
 }
 
 body#énergétique{
     background:linear-gradient(to bottom right, rgb(168, 88, 253), rgb(111, 252, 139));
     margin: 0;
     height: fit-content;
+    filter: drop-shadow(2px 4px 6px black);
 }
 
 .box{
