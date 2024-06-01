@@ -315,7 +315,8 @@ header{
 }
 
 body#accueil{
-    background-origin: border-box;
+    scroll-behavior: smooth;
+    background-origin:border-box;
     background-repeat: no-repeat;
     background-clip: border-box;
     background-image: url(../assets/images/isasourire.webp);
