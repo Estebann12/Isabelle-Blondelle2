@@ -646,9 +646,17 @@ a{
     .top-header .name{
         font-size: 50px;
     }
-    #texte, .section-contact, #textetarifs {
-    margin: 0 130px 0 130px;
-}
+    #texte, .section-contact, , #textetarifs2 {
+        margin: 0 40px 0 40px;
+    }
+    #textetarifs2 {
+        
+        max-height: 1415px ;
+    }
+    #textetarifs{
+    max-width: 375px;
+    }
+
 }
 
 @media (max-width:1095px){
@@ -660,5 +668,10 @@ a{
 @media (max-width:990px){
     .top-header .name{
         font-size: 39px;
+    }
+}
+@media (max-width:990px){
+    #textetarifs2{
+        max-height: 1510px;
     }
 }
