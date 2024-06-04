@@ -646,7 +646,7 @@ a{
     .top-header .name{
         font-size: 50px;
     }
-    #texte, .section-contact, , #textetarifs2 {
+    #texte, .section-contact, #textetarifs2 {
         margin: 0 40px 0 40px;
     }
     #textetarifs2 {
