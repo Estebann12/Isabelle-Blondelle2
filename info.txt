@@ -1,6 +1,6 @@
-formulaire de contacts + numéro siret + adresse email
-
-rajouter photo avec le text de chaque onglet
+numéro siret
 
 mettre retour de communication animale en bas du texte 
+
+rajouté une section dans index pour ajouter ou enlever des diplomes
 

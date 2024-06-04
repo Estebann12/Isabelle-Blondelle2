@@ -10,6 +10,10 @@
     border-bottom-right-radius: 2rem;
 }
 
+input {
+    text-align: center;
+}
+
 #textetarifs{
     background:rgb(230 186 5 / 9%);
     max-width: 590px;
