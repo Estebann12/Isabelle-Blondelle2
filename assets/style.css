@@ -136,6 +136,11 @@ p {
     margin-block-end: 0;
 }
 
+.commu h3#communicatrice{
+    margin-top: 0;
+    margin-block-end: 1rem;
+}
+
 .commu h3:last-child {
     margin-block-end: 5rem;
 }
@@ -195,7 +200,7 @@ background-color: orange;
 .yogadurire h2, .yogadurire h3 {
     font-size: 30px;
     font-weight: bold;
-    color:rgb(241, 189, 77);
+    color:rgb(255 252 0);
     padding-top: 20px;
     padding-left: 5px;
     margin-block-end: 0;
@@ -204,7 +209,7 @@ background-color: orange;
 .yogadurire a {
     font-size: 25px;
     font-weight: bold;
-    color:rgb(206, 104, 56);
+    color:rgb(255 224 0);
     padding-top: 20px;
     padding-left: 5px;
     cursor: default;
@@ -215,9 +220,9 @@ background-color: orange;
 }
 
 .yogadurire p {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
-    color: rgb(198 67 67);
+    color: rgb(255 252 0);
     padding-top: 10px;
     padding-left: 5px;
 }
