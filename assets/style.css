@@ -353,13 +353,12 @@ header{
 }
 
 body#accueil{
-    scroll-behavior: none;
     background-origin:border-box;
     background-repeat: no-repeat;
     background-clip: border-box;
     background-image: url(../assets/images/isasourire.webp);
-    background-attachment: fixed;
-    background-position: center;
+    background-attachment:fixed;
+    background-position:bottom;
     background-size:cover;
     margin: 0;
     padding: 0;
