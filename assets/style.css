@@ -353,7 +353,7 @@ header{
 }
 
 body#accueil{
-    scroll-behavior: smooth;
+    scroll-behavior: none;
     background-origin:border-box;
     background-repeat: no-repeat;
     background-clip: border-box;
