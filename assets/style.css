@@ -216,6 +216,17 @@ p {
     margin-block-end: 0;
 }
 
+.energie h3#energie {
+    padding-top: 5px;
+    margin-top: 0;
+    margin-block-end: 1rem;
+}
+
+a#h3-a {
+    font-size: 25px;
+    color: purple;
+}
+
 .energie h3:last-child {
     margin-block-end: 5rem;
 }
