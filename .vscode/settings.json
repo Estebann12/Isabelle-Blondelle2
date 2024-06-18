@@ -1,0 +1,17 @@
+{
+  "sqltools.useNodeRuntime": true,
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "name": "dataco",
+      "database": "${workspaceFolder:Isabelle-Blondelle}/database.db"
+    }
+  ],
+  "cSpell.language": "fr,fr-FR,en",
+  "cSpell.enableFiletypes": [
+    "code-text-binary",
+    "sql",
+    "sqlite"
+  ]
+}

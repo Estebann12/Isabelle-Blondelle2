@@ -18,7 +18,7 @@ input {
     background:rgb(230 186 5 / 9%);
     max-width: 590px;
     max-height: 8000px;
-    margin: 0 40px 0 40px;
+    margin: 0 40px 0 45px;
     border: 2px solid grey;
     box-shadow: 0px 0px 10px purple;
     border-bottom-left-radius: 2rem;
@@ -490,6 +490,75 @@ a{
     text-decoration: none;
     color:  black;
     cursor: pointer;
+}
+
+#comments_container {
+    max-width: 1000px;
+    background: rgba(255,255,255,.2);
+    margin: 55px 150px 0 150px;
+    height: 100vh;
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px purple;
+    border-radius: 2rem;
+}
+
+#comments_container h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-block-end: 0;
+}
+
+#comments_container form div {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    grid-gap: 10px;
+    margin: 20px 0;
+    outline: none;
+}
+
+#comments_container form div input, #comments_container form div textarea{
+    border: 1px inset #c8c8c8;
+    background-color: rgba(255, 255, 255, 0.258);
+    border-radius: 3px;
+    outline: none;
+}
+
+#comments_container form button {
+    border: 1px outset #92009c;
+    background-color: #92009c;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+#comments_container form button:hover {
+    background-color: #890293;
+    outline: none;
+}
+
+#comments_container form button:active {
+    background-color: #74027c;
+    box-shadow: none;
+    outline: none;
+}
+
+#comments_display {
+    margin-top: 20px;
+}
+
+#comments_display article {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 0 10px;
+}
+
+#comments_display article p:first-child {
+    font-size: 0.8em;
+    font-style: italic;
 }
 
 .section-contact{

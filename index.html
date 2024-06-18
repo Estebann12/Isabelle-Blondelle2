@@ -52,9 +52,9 @@
 
         <a>Je suis avant tout une femme au cœur ouvert envers tout ce qui est vivant.</a> 
         
-        <a>Je me définis comme étant Animiste. Pourquoi Animiste ? Je considère avec amour, que toutes choses vivantes sur terre ont une âme et méritent le respect. Voilà, pourquoi je me définis ainsi !</a>
+        <a>Je me définis comme étant Animiste. Pourquoi Animiste ? Je considère avec amour, que toutes les choses vivantes sur terre ont une âme et méritent le respect. Voilà, pourquoi je me définis ainsi !</a>
         
-        <a>Je vous propose de découvrir mon monde et s’il vous plaît c’est que peut-être je peux vous aider à cheminer vers un meilleur monde pour vous et donc pour nous tous !</a>
+        <a>Je vous propose de découvrir mon univers et s’il vous plaît c’est que peut-être je peux vous aider à cheminer vers un monde meilleur pour vous et donc pour nous tous !</a>
         
         
         <a>Ma pratique :</a>
@@ -72,6 +72,31 @@
           <h2>Mes Diplômes/Formations</h2>
       </div>
 
+    </section>
+    <section id="comments_container">
+      <h2>Votre Avis</h2>
+      <form method="post">
+        <div>
+          <label for="firstName">Prénom</label>
+          <input type="text" id="firstName" name="firstName" required>
+        </div>
+        <div>
+          <label for="lastName">Nom</label>
+          <input type="text" id="lastName" name="lastName" required>
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message_avis" name="message_avis" cols="30" rows="10" required></textarea>
+        </div>
+        <button type="submit">Enregistrer</button>
+      </form>
+    </section>
+    <section id="comments_display">
+      
+      <article>
+        <p>John Doe</p>
+        <p>message</p>
+      </article>
     </section>
     <section class="section-contact">
       <h2>Contactez Moi</h2>
@@ -96,7 +121,7 @@
             <option value="autre">Autre</option>
           </select>
           <label for="message" class="label-contact">Message</label>
-          <textarea class="message-contact" name="message" cols="20" rows="10" id="message" placeholder="Merci de renseigner vos questions ou vos commentaires"></textarea>
+          <textarea class="message-contact" name="message_avis" cols="20" rows="10" id="message_avis" placeholder="Merci de renseigner vos questions ou vos commentaires"></textarea>
           <button class="button-contact" type="submit" value="Envoyer">Envoyer</button>
         </div>
       </form>
