@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href=".\assets\style.css" />
     <link rel="icon" type="image/vnd.icon" href="./assets/images/favicon.ico">
-    <title></title>
+    <title>Isabelle Hublet et </title>
     <link
     href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
     rel="stylesheet"
