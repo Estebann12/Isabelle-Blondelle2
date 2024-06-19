@@ -91,9 +91,21 @@
       </form>
     </section>
     <section id="comments_display">
+      <?php
+      $message = $pdo->query(
+        "SELECT * FROM message"
+      )->fetchAll();
+
+      foreach ($messages as $message) :
+      ?>
+      <article>
+        <p><?= $message['firstName'];?><?= $message['lastName']; ?></p>
+        <p><?= $message['message']; ?></p>
+      </article>
+      <?php endforeach; ?>
       <article>
         <p>Jeanne Trophe</p>
-        <p>Incroyable prestation j'en suis ressortit plus libre que jamais</p>
+        articlon j'en suis ressortit plus libre que jamais</p>
       </article>
       <article>
         <p>John Doe</p>

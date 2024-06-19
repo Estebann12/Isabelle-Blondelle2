@@ -2,7 +2,7 @@
 {
     max-width: 1000px;
     max-height: 8000px;
-    margin: 0 219px 0 219px;
+    margin: 0 250px 0 250px;
     background: rgb(255 255 255 / 30%);
     border: 2px solid grey;
     box-shadow: 0px 0px 10px purple;
@@ -274,7 +274,7 @@ a#h3-a {
 .chamanisme p {
     font-size: 23px;
     font-weight: bold;
-    color: rgb(48, 7, 92);
+    color: rgb(0, 0, 0);
     padding-top: 10px;
     padding-left: 5px;
 }
@@ -282,7 +282,7 @@ a#h3-a {
 .chamanisme a {
     font-size: 25px;
     font-weight: bold;
-    color:rgb(48, 7, 92);
+    color:rgb(0, 0, 0);
     padding-top: 20px;
     padding-left: 5px;
     cursor: default;
@@ -493,14 +493,11 @@ a{
 }
 
 #comments_container {
+    display: flex;
+    flex-direction: column;
     max-width: 1000px;
-    background: rgba(255,255,255,.2);
-    margin: 55px 150px 0 150px;
-    height: 100vh;
-    padding: 15px;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 10px purple;
-    border-radius: 2rem;
+    margin: 0 250px 0 250px;
+    padding-bottom: 2rem;
 }
 
 #comments_container h2 {
@@ -511,28 +508,62 @@ a{
     margin-block-end: 0;
 }
 
-#comments_container form div {
-    display: grid;
-    grid-template-columns: 70px 1fr;
-    grid-gap: 10px;
-    margin: 20px 0;
-    outline: none;
+#comments_container form  {
+    margin: 3rem auto 65px;
+    max-width: 30%;
+    padding: 0rem 7rem 0.8rem;
+    background: rgba(255, 255, 255, .2);
+    border: 2px solid grey;
+    box-shadow: 0px 0px 10px purple;
+    border-radius: 2rem;
+    text-align: center;
 }
 
-#comments_container form div input, #comments_container form div textarea{
-    border: 1px inset #c8c8c8;
-    background-color: rgba(255, 255, 255, 0.258);
-    border-radius: 3px;
+#comments_container form div {
+    display: flex;
     outline: none;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
 }
+
+#comments_container form label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-size: 25px;
+}
+
+#comments_container form div input {
+    border-radius: 2rem;
+    border: none;
+    padding-block: 16px;
+    font-size: 16px;
+    min-width: 320px;
+}
+
+#comments_container form div textarea {
+    font-size: 19px;
+    border: 1px inset #c8c8c8;
+    outline: none;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding-block: 16px;
+    min-width: 320px;
+}
+
 
 #comments_container form button {
+    font-size: 16px;
+    font-weight: bold;
+    width: -webkit-fill-available;
     border: 1px outset #92009c;
     background-color: #92009c;
     padding: 10px;
     cursor: pointer;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
     outline: none;
+    border-radius: 15px;
 }
 
 #comments_container form button:hover {
@@ -547,25 +578,33 @@ a{
 }
 
 #comments_display {
-    margin-top: 20px;
+    margin: 0 250px 0 250px;
 }
 
 #comments_display article {
-    border: 1px solid black;
+    background: rgb(255 255 255 / 38%);
+    box-shadow: 0px 0px 10px purple;
+    border: 2px solid grey;
     border-radius: 15px;
-    padding: 0 10px;
+    padding: 10px 10px;
+    margin: 10px;
+}
+
+#comments_display article p {
+    font-size: 20px;
 }
 
 #comments_display article p:first-child {
-    font-size: 0.8em;
+    font-size: 1.2em;
     font-style: italic;
+    font-weight: bold;
 }
 
 .section-contact{
     display: flex;
     flex-direction: column;
     max-width: 1000px;
-    margin: 0 220px 0 220px;
+    margin: 0 250px 0 250px;
     padding-bottom: 2rem;
 }
 
@@ -624,6 +663,7 @@ a{
 }
 
 .message-contact {
+    font-size: 19px;
     border-radius: 1rem;
     border: none;
     margin-bottom: 1rem;
