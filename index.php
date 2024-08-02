@@ -31,7 +31,7 @@
       {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": "Isabelle Blondelle Énergéticienne",
+        "name": "Isabelle Blondelle Énergéticienne, Naturopathe/Communicatrice Animalière, Animatrice Yoga du Rire",
         "image": "https://estebann12.github.io/Isabelle-Blondelle2/assets/images/isasourire.webp",
         "@id": "https://estebann12.github.io/Isabelle-Blondelle2/assets/images/isasourire.webp",
         "url": "https://estebann12.github.io/Isabelle-Blondelle2",
@@ -41,7 +41,7 @@
         },
         "openingHoursSpecification": {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
           "opens": "10:00",
           "closes": "19:00"
         }
