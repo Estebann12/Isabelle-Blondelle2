@@ -4,7 +4,15 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href=".\assets\style.css" />
     <link rel="icon" type="image/vnd.icon" href="./assets/images/favicon.ico">
-    <title>Isabelle Hublet et </title>
+    <title>Isabelle Blondelle Yoga du Rire, Communication/Naturopathie Animalière et Soins Énergétiques</title>
+    <meta
+      name="description"
+      content="Depuis 8 ans, je suis Communicatrice Animalière, Énergéticienne Maître Reiki et j'anime des ateliers de Yoga du Rire depuis 3 ans, tout en continuant mon métier à d'aide soignante spécialisée dans le handicap. Aujourd'hui je me suis libérée de ce poste pour être pleinement au service des personnes et des animaux qui ont besoin de retrouver leur bien-être, leur santé et leur chemin de vie. Je pense sincèrement que chacun peut aller mieux si nos consciences se libèrent et s'harmonisent vers nos atouts qui nous montrent le chemin."
+    />
+    <meta
+      name="description"
+      content=" Il n’existe pas de longueur fixe pour une meta description, mais, si votre texte est trop long, Google ne sélectionnera que 155 à 160 caractères de son contenu. Le"
+    />
     <link
     href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
     rel="stylesheet"
@@ -23,7 +31,7 @@
   </section>
   <section class="section-onglet">
     <div class="onglet">
-    <a href=".\index.html">Accueil</a>
+    <a href=".\index.php">Accueil</a>
   </div>
   <div class="onglet">
     <a href=".\pages\naturopathie.html">Naturopathie</a>
@@ -105,7 +113,7 @@
       <?php endforeach; ?>
       <article>
         <p>Jeanne Trophe</p>
-        articlon j'en suis ressortit plus libre que jamais</p>
+         <p>j'en suis ressortit plus libre que jamais</p>
       </article>
       <article>
         <p>John Doe</p>
