@@ -4,6 +4,49 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href=".\assets\style.css" />
     <link rel="icon" type="image/vnd.icon" href="./assets/images/favicon.ico">
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+  <meta
+      property="og:title"
+      content="Isabelle Blondelle Yoga du Rire, Communication/Naturopathie Animalière et Soins Énergétiques"
+    />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://estebann12.github.io/Isabelle-Blondelle2/"
+    />
+    <meta property="og:author" content="Isabelle Blondelle" />
+    <meta
+      property="og:description"
+      content=""
+    />
+    <meta
+      property="og:image"
+      content="https://estebann12.github.io/Isabelle-Blondelle2/assets/images/isasourire.webp"
+    />
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Isabelle Blondelle Énergéticienne",
+        "image": "https://estebann12.github.io/Isabelle-Blondelle2/assets/images/isasourire.webp",
+        "@id": "https://estebann12.github.io/Isabelle-Blondelle2/assets/images/isasourire.webp",
+        "url": "https://estebann12.github.io/Isabelle-Blondelle2",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "FR"
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "10:00",
+          "closes": "19:00"
+        }
+      }
+    </script>
     <title>Isabelle Blondelle Yoga du Rire, Communication/Naturopathie Animalière et Soins Énergétiques</title>
     <meta
       name="description"
@@ -13,10 +56,6 @@
       name="description"
       content=" Il n’existe pas de longueur fixe pour une meta description, mais, si votre texte est trop long, Google ne sélectionnera que 155 à 160 caractères de son contenu. Le"
     />
-    <link
-    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-    rel="stylesheet"
-  />
   </head>
   <body id="accueil">
     <header>
@@ -125,7 +164,7 @@
     </section>
     <section class="section-contact">
       <h2>Contactez Moi</h2>
-      <form class="contact-form"action="contact.php" method="post">
+      <form class="contact-form" action="contact.php" method="post">
         <div class="form-content">
           <label for="name" class="label-contact" >Nom et Prénom</label>
           <input class="input-contact" type="text" name="name" id="name" placeholder="Nom et Prénom" autocomplete="off"/>
